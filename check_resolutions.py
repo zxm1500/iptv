@@ -10,11 +10,12 @@ def get_resolution(url):
         if result.returncode == 0:
             return result.stdout.strip()
         else:
-            print(f"Failed to get resolution for {url}")
-            return "Resolution not found"
+            error_message = result.stderr.strip()
+            print(f"Failed to get resolution for {url}: {error_message}")
+            return f"Resolution not found (error: {error_message})"
     except Exception as e:
         print(f"Exception occurred while getting resolution for {url}: {e}")
-        return "Resolution not found"
+        return f"Resolution not found (exception: {e})"
 
 def check_channels(file_path):
     results = []
