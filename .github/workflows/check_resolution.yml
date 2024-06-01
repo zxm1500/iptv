@@ -2,7 +2,7 @@ name: Check IPTV Resolutions
 
 on:
   schedule:
-    - cron: '15 13 * * *'  # 每天23点运行
+    - cron: '22 13 * * *'  # 每天13:15运行
   workflow_dispatch:  # 手动触发
 
 jobs:
