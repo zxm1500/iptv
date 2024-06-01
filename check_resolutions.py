@@ -1,16 +1,7 @@
 import os
 import subprocess
 import requests
-import m3u8
-from datetime import datetime
-
-def get_m3u8_content(url):
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.text
-    else:
-        print(f"Failed to retrieve M3U8 content from {url}")
-        return None
+import re
 
 def get_resolution(url):
     try:
@@ -26,16 +17,16 @@ def get_resolution(url):
         return "Resolution not found"
 
 def check_channels(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        m3u8_content = f.read()
-
-    playlist = m3u8.loads(m3u8_content)
     results = []
-
-    for segment in playlist.segments:
-        url = segment.uri
-        resolution = get_resolution(url)
-        results.append(f"{url} - {resolution}")
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    
+    for i in range(len(lines)):
+        if lines[i].startswith('#EXTINF'):
+            url = lines[i + 1].strip()
+            resolution = get_resolution(url)
+            channel_info = lines[i].strip()
+            results.append(f"{channel_info}\n{url} - {resolution}")
 
     return results
 
@@ -50,4 +41,3 @@ if __name__ == "__main__":
     results = check_channels(input_file)
     save_results(results, output_file)
     print(f"Results saved to {output_file}")
-
