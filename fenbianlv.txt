@@ -1,11 +1,11 @@
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1.0" tvg-name="CCTV1" group-title="央视",CCTV-1 综合C
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8 - Resolution not found (error: [tcp @ 0x557bbfc70e00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8 - Resolution not found (error: [tcp @ 0x558cab9c6e00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8: Connection timed out)
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" tvg-id="2.0" tvg-name="CCTV2" group-title="央视",CCTV-2 财经
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8 - Resolution not found (error: [tcp @ 0x563a8643fe00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8 - Resolution not found (error: [tcp @ 0x5617cef8ee00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8: Connection timed out)
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" tvg-id="3.0" tvg-name="CCTV3" group-title="央视",CCTV-3 综艺
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226021/index.m3u8 - Resolution not found (error: [tcp @ 0x55871f1d0e00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226021/index.m3u8 - Resolution not found (error: [tcp @ 0x559d56547e00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226021/index.m3u8: Connection timed out)
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" tvg-id="106.0" tvg-name="CCTV4K" group-title="央视",CCTV4K
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8 - Resolution not found (error: http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8: Server returned 403 Forbidden (access denied))
