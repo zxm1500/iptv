@@ -1,14 +1,14 @@
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1.0" tvg-name="CCTV1" group-title="央视",CCTV-1 综合C
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8 - Resolution not found (error: [tcp @ 0x55e50fc3ee00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8 - Resolution not found (error: [tcp @ 0x55a4dbaebe00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8: Connection timed out)
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" tvg-id="2.0" tvg-name="CCTV2" group-title="央视",CCTV-2 财经
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8 - Resolution not found (error: [tcp @ 0x558d71fd9e00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8 - Resolution not found (error: [tcp @ 0x556fd9c3de00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8: Connection timed out)
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" tvg-id="3.0" tvg-name="CCTV3" group-title="央视",CCTV-3 综艺
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226021/index.m3u8 - Resolution not found (error: [tcp @ 0x558ced1cce00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226021/index.m3u8 - Resolution not found (error: [tcp @ 0x55bf401e4e00] Connection to tcp://ottrrs.hl.chinamobile.com:80 failed: Connection timed out
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226021/index.m3u8: Connection timed out)
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" tvg-id="106.0" tvg-name="CCTV4K" group-title="央视",CCTV4K
-http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8 - Resolution not found (error: [tcp @ 0x563cdf0ea440] Connection to tcp://27.222.3.214:80 failed: Connection timed out
+http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8 - Resolution not found (error: [tcp @ 0x55f2ab062440] Connection to tcp://27.222.3.214:80 failed: Connection timed out
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8: Connection timed out)
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" tvg-id="20.0" tvg-name="CGTN" group-title="央视",CGTN新闻
 https://live.cgtn.com/1000/prog_index.m3u8 - Resolution not found (error: https://live.cgtn.com/1000/prog_index.m3u8: Server returned 404 Not Found)
